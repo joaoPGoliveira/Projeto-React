@@ -3,6 +3,7 @@ import Gallery, { Profile } from "./Gallery/Gallery";
 import PackingList from "./Lista/Lista";
 import List from "./Mapa/Map";
 import Profile02 from "./Props/App";
+import { Link } from 'react-router-dom'
 
 export default function Componentes_Aula() {
     return (
@@ -29,6 +30,8 @@ export default function Componentes_Aula() {
 
             <h1> Filtragem </h1>
             <Filtro />
+
+            <Link to='/' className='link_voltarHome'> Voltar para a Home </Link>
         </>
 
     )
