@@ -5,7 +5,7 @@ import List from "./Mapa/Map";
 import Profile02 from "./Props/App";
 import { Link } from 'react-router-dom'
 
-export default function Componentes_Aula() {
+export default function ComponentesAulas() {
     return (
         <>
             <h1> Meu primeiro componente </h1><br />
