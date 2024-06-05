@@ -59,6 +59,20 @@ export default function Home() {
           </Link>
         </li>
       </ul>
+
+      <h2 className={Styles.titulos_semanas}> Semana 04 </h2>
+
+      <ul className={Styles.listas}>
+        <li>
+          <Link
+            to="./Components/Semana_04/Scripts/index"
+            className={Styles.links_principais}
+          >
+            {" "}
+            Aula interatividades {" "}
+          </Link>
+        </li>
+      </ul>
     </div>
   );
 }
