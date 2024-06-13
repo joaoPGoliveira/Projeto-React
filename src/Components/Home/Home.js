@@ -69,7 +69,21 @@ export default function Home() {
             className={Styles.links_principais}
           >
             {" "}
-            Aula interatividades {" "}
+            Aula interatividades{" "}
+          </Link>
+        </li>
+      </ul>
+
+      <h2 className={Styles.titulos_semanas}> Semana 05 </h2>
+
+      <ul className={Styles.listas}>
+        <li>
+          <Link
+            to="./Components/Semana_05/ContadorCaracter"
+            className={Styles.links_principais}
+          >
+            {" "}
+            Projeto REGEX{" "}
           </Link>
         </li>
       </ul>

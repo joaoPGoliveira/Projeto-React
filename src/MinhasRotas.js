@@ -5,6 +5,7 @@ import Relogio from "./Components/Semana_01/Relogio/Relogio";
 import Contador from "./Components/Semana_02/Contador/Contador";
 import ComponentesAulas from "./Components/Semana_03/Scripts";
 import Interatividade from "./Components/Semana_04/Scripts";
+import ContadorDeCaracteres from "./Components/Semana_05/ContadorCaracter";
 
 export default function MinhasRotas() {
   return (
@@ -30,6 +31,10 @@ export default function MinhasRotas() {
         <Route
           path="/Components/Semana_04/Scripts/index"
           element={<Interatividade />}
+        />
+        <Route
+          path="/Components/Semana_05/ContadorCaracter"
+          element={<ContadorDeCaracteres/>}
         />
       </Routes>
     </BrowserRouter>
